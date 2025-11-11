@@ -1,3 +1,8 @@
+nome = "vitor"
+idade = 20
+
+condiçao = "esta na idade certa" if nome == "vitor" and idade == 16 else "nao esta correto"
+print(condiçao)
 
 
 
@@ -5,13 +10,3 @@
 
 
 
-tabuleiro = True
-peças = False
-regras_do_jogo = True
-quantia_de_pessoas = False
-
-jogar = tabuleiro and peças
-desistir = peças or quantia_de_pessoas
-observar = tabuleiro and regras_do_jogo
-
-print("jogar = {} desistir = {} observar = {}".format(jogar , desistir, observar))
