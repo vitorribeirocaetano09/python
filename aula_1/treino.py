@@ -1,15 +1,11 @@
-# atribuiçao :
+valor = True and True and True and True
+print(valor)
 
-a = 22
+valor_2 = True and False
+print(valor_2)
 
-a+=45
-
-print(a)
-
-# saida : 67,atribuimos um valor em especifico para a variavel "a" que tinha valor como 22
+valor_3 = True and True or False and True
+print(valor_3)
 
 
-b = 156
 
-b-=33
-print(b)
