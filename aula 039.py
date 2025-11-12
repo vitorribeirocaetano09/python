@@ -27,12 +27,3 @@ a = [123,44,55]
 print(123 not in a)
 
 print(44 not in a)
-
-
-
-
-
-
-
-
-
