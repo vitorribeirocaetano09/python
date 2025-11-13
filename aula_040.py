@@ -19,3 +19,5 @@ n_6 = "nicolas"
 
 print(n_1 is n_2 and n_3 is n_2)
 print(n_6 is n_5 or n_5 is n_4 or n_3)
+
+

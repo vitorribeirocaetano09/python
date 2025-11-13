@@ -14,19 +14,16 @@
 # print(lista is lista_b)
 # print(lista_b is lista_c)
 
+a = 12
+b = "5"
+c = "24"
+d = 6
 
-a = 3
-b ="2"
+print(int(d)+int(b))
+print(d+a)
 
-print(a + int(b))
+print(type(str(b)))
 
-c = "2"
-d = "1"
-
-print(int(c)+int(d))
-
-
-
-
+dir(int)
 
 
