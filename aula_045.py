@@ -1,19 +1,10 @@
-# conversao de tipos :
+# listas :
 
-a = 3
-b ="2"
+lista = []
 
-print(a + int(b))
+lista.append("vitor")
+print(lista)
 
-c = "2"
-d = "1"
+lista_a = 22
 
-print(int(c)+int(d))
-
-z = "23"
-y = 12
-b = "56"
-h = 23
-
-print(int(b)+int(z))
-print(y + h)
+print(lista is lista_a)
