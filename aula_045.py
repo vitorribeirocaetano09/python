@@ -1,10 +1,23 @@
-# listas :
+# lista_principal = [1,2,3,4,5,6,7,8,9,10,11,12]
 
-lista = []
+# mensagem = int(input("digite um valor aleatorio da sorte :"))
 
-lista.append("vitor")
-print(lista)
-
-lista_a = 22
-
-print(lista is lista_a)
+# if mensagem in lista_principal:
+#     print(f"valor digitado  : {mensagem}, correto")
+    
+# else:
+#     print(f"valor digitado  : {mensagem}, incorreto")
+    
+    
+while True:
+    mensagem = input("digite o nome ideal :")
+    if mensagem == "jesus":
+        print("vc acertou !:")
+        break    
+    else:
+        print("vc errou!")
+    
+    
+    
+    
+    
