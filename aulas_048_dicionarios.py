@@ -19,3 +19,4 @@ vitor = {"idade":16,"cidade":"carapicuiba"}
 print(vitor.keys())
 print(vitor.values())
 print(vitor.items())
+print(vitor.pop("idade"))
