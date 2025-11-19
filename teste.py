@@ -1,10 +1,7 @@
-# para acessar chaves :
-dicionarios = {"nome":"vitor","cidade":"carapicuiba","bairro":"novo horizonte"}
-for i in dicionarios.keys():
-    print(i)
+pi = 3.14
+raio = 25
 
-# para acessar valores :
+soma = pi*raio
 
-dicionarios_1 = {"nome":"joao","cidade":"brotas"}
-for a in dicionarios_1.values():
-    print(a)
+
+print("a area do circulo e igual a :",soma, "perfeito")
