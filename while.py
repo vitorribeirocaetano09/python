@@ -1,19 +1,21 @@
-dados = ("vitor",1234)
+lista = {"nome":"vitor","idade":16,"cidade":"carapicuiba"}
 
-while True:
-    tentativa = input("digite seu nome :")
-    tentativa_senha = int(input("digite a senha :"))
+for nomes in lista.values():
+    print(f"-----identidade : {nomes} ")
+    variavel_chave = False
     
-    if tentativa and tentativa_senha in dados:
-        print("correto")
+    while not variavel_chave:
+        tentativa = input("poderia confirma se e realmente o senhor?(s/n) :")
+        
+    if tentativa == "s":
+        print("tudo bem acesse o site :")
         break
     
+    elif tentativa == "n":
+        print("tudo bem pode ignorar a mensagem")
+        break
     else:
-        print("nao encontrado")
+        print("mensagem nao encontrada")
+        
     
-    
-    
-    
-    
-
-
+    print("fim da analise : ------> fim")
