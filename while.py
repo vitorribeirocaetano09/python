@@ -1,14 +1,19 @@
-# entrada = False
+dados = ("vitor",1234)
 
-# while not entrada:
-#     tentativa = input("digite uma palavra chave para entrar :")
+while True:
+    tentativa = input("digite seu nome :")
+    tentativa_senha = int(input("digite a senha :"))
     
-#     if tentativa == "sair":
-#         print("saindo do loop ")
-#         break
+    if tentativa and tentativa_senha in dados:
+        print("correto")
+        break
     
-#     elif tentativa == "acessar":
-#         print("acessando dados")
+    else:
+        print("nao encontrado")
     
-#     else:
-#         print("fim")
+    
+    
+    
+    
+
+
