@@ -1,21 +1,17 @@
-lista = {"nome":"vitor","idade":16,"cidade":"carapicuiba"}
+lista = ["compras","treinar","trabalhar"]
 
-for nomes in lista.values():
-    print(f"-----identidade : {nomes} ")
-    variavel_chave = False
+for i in lista:
+    print(f"diario : {i}")
     
-    while not variavel_chave:
-        tentativa = input("poderia confirma se e realmente o senhor?(s/n) :")
-        
-    if tentativa == "s":
-        print("tudo bem acesse o site :")
-        break
-    
-    elif tentativa == "n":
-        print("tudo bem pode ignorar a mensagem")
-        break
-    else:
-        print("mensagem nao encontrada")
-        
-    
-    print("fim da analise : ------> fim")
+digitar_1 = input("qual a fazer concluiu :")
+
+if digitar_1 in lista:
+    print(f"elemento retirado : {digitar_1} retirado!")
+    lista.remove(digitar_1)
+    print(lista)
+
+elif digitar_1 == "visitar":
+    print(f"elemento nao recente : {digitar_1}")
+
+else:
+    print(f"elemento nao encontrado ou nao realizado : {digitar_1} ")
