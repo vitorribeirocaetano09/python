@@ -1,17 +1,14 @@
-lista = ["compras","treinar","trabalhar"]
-
-for i in lista:
-    print(f"diario : {i}")
+lista = None       
     
-digitar_1 = input("qual a fazer concluiu :")
+digitar = input("digite um nome :")
 
-if digitar_1 in lista:
-    print(f"elemento retirado : {digitar_1} retirado!")
-    lista.remove(digitar_1)
-    print(lista)
+verificaçao = len(digitar)
 
-elif digitar_1 == "visitar":
-    print(f"elemento nao recente : {digitar_1}")
-
+if verificaçao >=6:
+    print(f"obrigado usuario ----> : {digitar}")
+    
+elif verificaçao == 0:
+    print("nome ou senha totalmente zerada :")
+    
 else:
-    print(f"elemento nao encontrado ou nao realizado : {digitar_1} ")
+    print("senha muito baixa!")
