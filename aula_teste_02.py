@@ -12,10 +12,3 @@ for letras in lista_compras:
      print(f"sua lista de compras atual ---> : {lista_compras}")
      
      print("---->lista encerrada")
-     
-
-
-
-
-
-
