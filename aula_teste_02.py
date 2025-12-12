@@ -1,10 +1,14 @@
-fila_pedidos = ["hamburguer","salada","refrigerante"]
+configuracoes = {"tema": "escuro", "notificacoes": True, "fonte": "pequena"}
+for chave, valor in configuracoes.items():
+    print(f"Configuração: {chave} = {valor}")
 
 
-while fila_pedidos :
-    
-    retirada_atual = fila_pedidos.pop(0)
-    
-    print(f"lista vazia : {fila_pedidos}")
-    
-    
+
+
+
+
+
+
+
+
+
