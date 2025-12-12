@@ -1,16 +1,10 @@
-lista = [22,33]
-while True:
+fila_pedidos = ["hamburguer","salada","refrigerante"]
+
+
+while fila_pedidos :
     
-    numero_digitar = int(input("digite um numero : "))
-    if numero_digitar >= 10:
-        somando = sum(lista)
-        print(f"valor : {numero_digitar},esta de acordo com caso :")
-        print(f"soma ocorrida com sucesso ------> : {somando}")
-        break
+    retirada_atual = fila_pedidos.pop(0)
     
-    elif numero_digitar == 0:
-        print("saindo do programa")
-        
-    else:
-        print(f"numero nao encontrado : {numero_digitar}")
-        print("tente novamente em ------")
+    print(f"lista vazia : {fila_pedidos}")
+    
+    
