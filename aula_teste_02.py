@@ -1,5 +1,6 @@
-fila_pedidos = ["pizza", "hamburguer", "salada"]
-while fila_pedidos: 
-    pedido_atual = fila_pedidos.pop(0) 
-    print(f"Processando pedido: {pedido_atual}")
-print("Fila de pedidos vazia.")
+def saudaçao(nome):
+    return (f"ola meu nome e : {nome}")
+
+mensagem_01 = saudaçao("pedro")
+
+print(mensagem_01)
