@@ -1,8 +1,10 @@
 from math import pi
 
+raio = input("digite o valor do raio :")
 
-raio = input("informe o raio :")
+def circulo():
+    print ("o valor e equivalente a :")
 
-comparration = pi*float(raio)
+calculo = circulo(pi*float(raio))
 
-print(f"o valor e igual : {comparration}")
+print(calculo)
