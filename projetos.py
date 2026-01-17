@@ -1,6 +1,8 @@
-import math
+from math import pi
 
-pi = 3,14567
-raio = 2
 
-print("valor igual a  : ",math.pi*raio)
+raio = input("informe o raio :")
+
+comparration = pi*float(raio)
+
+print(f"o valor e igual : {comparration}")
