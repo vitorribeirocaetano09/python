@@ -1,10 +1,14 @@
-from math import pi
+import sys
+import math
 
-raio = input("digite o valor do raio :")
+def somar_valores(numeros):
+    return numeros * 2
 
-def circulo():
-    print ("o valor e equivalente a :")
+atribuiçao = (somar_valores(10))
 
-calculo = circulo(pi*float(raio))
+numeros  = [(sys.argv[1]),(sys.argv[2])]
 
-print(calculo)
+
+atribuiçao_2 = math.fsum(numeros)
+
+print(atribuiçao_2)
