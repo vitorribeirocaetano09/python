@@ -1,14 +1,48 @@
+from math import pi
 import sys
-import math
 
-def somar_valores(numeros):
-    return numeros * 2
+def calcula_circulo(raio):
+    return pi*float(raio)**2
 
-atribuiçao = (somar_valores(10))
+raio = float(sys.argv[1])
 
-numeros  = [(sys.argv[1]),(sys.argv[2])]
+if (sys.argv[1])<=10:
+    
+    area = calcula_circulo(raio)
+    print("calculo ideal igual a ",area)
+else:
+    print("valor muito alto do normal")
 
 
-atribuiçao_2 = math.fsum(numeros)
 
-print(atribuiçao_2)
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
