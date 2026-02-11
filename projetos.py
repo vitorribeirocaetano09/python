@@ -1,48 +1,29 @@
 from math import pi
 import sys
 
+
+
+
+def help():
+    print("e necessario digitar um valor aqui ---> : ")
+
+
+
+    
+    
 def calcula_circulo(raio):
-    return pi*float(raio)**2
+    return pi*float(raio)*2
 
-raio = float(sys.argv[1])
-
-if (sys.argv[1])<=10:
+if len(sys.argv)<2:
+    help()
     
-    area = calcula_circulo(raio)
-    print("calculo ideal igual a ",area)
+elif not (sys.argv[1]).isnumeric:
+    print("digite apenas um numero")
+    sys.exit()
+    
+    
 else:
-    print("valor muito alto do normal")
-
-
-
-
-
-
-
-
-
-
-
     
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    raio = (sys.argv[1])
+    final = calcula_circulo(raio)
+    print("valor do circulo e igual a ",final)
