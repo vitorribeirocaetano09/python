@@ -1,16 +1,11 @@
+
+
 from math import pi
 import sys
-
-
-
 
 def help():
     print("e necessario digitar um valor aqui ---> : ")
 
-
-
-    
-    
 def calcula_circulo(raio):
     return pi*float(raio)*2
 
