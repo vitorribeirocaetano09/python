@@ -5,11 +5,11 @@ def comparaçao_idades(idade):
     
     if idade < 18:
         return "menor de idade"
-    elif idade >= (18,25):
+    elif idade in range (18,25):
         return "idade ideal"
-    elif idade>=(26,35):
+    elif idade in range(26,35):
         return "pode entrar a vontade"
-    elif idade >= (36,45):
+    elif idade in range (36,45):
         return "velho demais para isso"
     else:
         return "idade nao digitada"
